@@ -1,0 +1,15 @@
+.p, h2{
+    clear: both;
+}
+
+#Image1{
+    float:left;
+}
+
+#Image2{
+    float:right;
+}
+
+#Image3{
+    float:none;
+}
