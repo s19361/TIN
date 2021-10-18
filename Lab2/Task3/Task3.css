@@ -1,0 +1,47 @@
+body{
+	background-color: #c8d6e5;
+}
+article h2{
+	text-decoration: underline;
+	font-style: italic;
+	font-size: 30px;
+	margin-left: 15px;
+	color:#cf0d0d;
+}
+article {
+	margin-left: 30px;
+	font-size: 20px;
+	
+}
+.container {
+	padding-top: 20px; 
+    padding-bottom: 20px;
+    margin: 0 auto;
+    width: 80vw;
+    
+}
+.banner {
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+    border: 5px solid black;
+    padding: 10px;  
+    display: block;
+    margin:auto;
+}
+.text{
+	background-color: #b4ec9a;
+	border: 4px solid #b36437;
+	padding: 20px;
+}
+a:link {
+  background-color: transparent;
+  text-decoration: none;
+
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
