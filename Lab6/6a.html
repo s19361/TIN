@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab6</title>
+</head>
+<body>
+
+    <form>
+        <h3>Choose Temp</h3> 
+        <select name="from" id="from" onchange="fromTO()">
+            <option value="c" selected> Celcius </option>
+            <option value="f" >Fahrenheit</option>       
+        </select>	
+    <br>
+    <input type="number" id ="temp" name="temp" value="0" >
+    <h3>To</h3> 
+    <span id="to">Fahrenheit</span>
+    <br><br>
+    <input type="button" value="convert" onclick="convert()">
+    
+    </form>
+    <br><br>
+    <h3>Result : </h3> 
+    <span id="result">32 °F</span>
+
+
+    <script src="6a.js"></script>
+</body>
+</html>
